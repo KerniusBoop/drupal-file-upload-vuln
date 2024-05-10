@@ -1,0 +1,5 @@
+name: 'File Upload Module'
+type: module
+description: 'File Upload Module for Vuln Server'
+core_version_requirement: ^8 || ^9
+package: Custom
