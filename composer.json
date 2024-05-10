@@ -1,0 +1,14 @@
+{
+	"name": "dupravalas/file_upload",
+	"description": "File upload module for Dupravalas",
+	"type": "drupal-custom-module",
+	"require-dev": {
+		"symfony/console": "*"
+	},
+	"authors": [
+		{
+			"name": "dupravalas",
+			"email": "admin@dupravalas.com"
+		}
+	]
+}

@@ -1,5 +1,5 @@
 file_upload.form:
-  path: '/file_upload'
+  path: '/file-upload'
   defaults:
     _title: 'File Upload'
     _form: '\Drupal\file_upload\Form\FileUploadForm'
