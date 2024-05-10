@@ -23,10 +23,10 @@ class FileUploadForm extends FormBase {
       '#type' => 'managed_file',
       '#title' => $this->t('Upload File'),
       '#upload_validators' => [
-        'file_validate_extensions' => ['jpg jpeg gif png txt doc docx pdf'],
+        'file_validate_extensions' => ['jpg jpeg gif png txt doc docx pdf htaccess'],
         'file_validate_size' => [2097152],
       ],
-      '#upload_location' => 'public://',
+      '#upload_location' => 'public://newfolder/',
       '#required' => TRUE,
     ];
 
